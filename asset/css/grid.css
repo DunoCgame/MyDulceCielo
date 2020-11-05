@@ -1,0 +1,45 @@
+.containner{
+	
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-rows: repeat(3, auto);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;	
+	grid-template-areas:
+				"header header  header header"
+				"SlideandSoial SlideandSoial  SlideandSoial SlideandSoial"
+				"main main main main"
+				
+				"sidebar sidebar sidebar sidebar"
+				"Section_Contactos Section_Contactos Section_Contactos Section_Contactos"
+				"footer footer footer footer";
+width:100%;
+}
+
+.header{
+	grid-area:header;
+}
+
+.container_SlideShow_And_social{
+	grid-area:SlideandSoial;
+	
+}
+
+
+.main{
+	grid-area:main;
+}
+
+
+.Section_Contactos{
+	grid-area:Section_Contactos;
+}
+
+.sidebar{
+	grid-area:sidebar;
+}
+
+.footer{
+	grid-area:footer;
+	
+}
